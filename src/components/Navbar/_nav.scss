@@ -1,8 +1,7 @@
 
 
 .nav{
-    // border: 2px solid red;
-    height: 10vh;
+    height: 5vh;
     padding: 1rem;
 
     &__list{
@@ -10,7 +9,7 @@
     }
     &__item{
         display: inline;
-        padding: 1rem;
+        padding: 2.5rem;
     }
 
     &__link{
@@ -18,9 +17,8 @@
         text-transform: uppercase;
         font-weight: 500;
         font-family: $font-family;
-        // transition: all 1s;
+     
         @include transition(1s);
-
 
         &:hover{
             color: blue;

@@ -1,33 +1,26 @@
-//*****************************************************
-//*   CONTACT PAGE
-//*****************************************************
-
+// @import "../../scss/mixins";
 .contact-bgImg-container{
-    @include bgImg(100vh, $main-bgImg-path);
+    @include bgImg(100%, $main-bgImg-path);
     nav{
-        // border:2px solid red;
         height: 40vh;
     }
 }
 
 .contact{
-    // border:2px solid red;
-    height: 40vh;
+    
+    height: 50vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    padding-bottom: 20rem;
 
-    h2{
-        font-size: 3rem;
-        margin-bottom: 2rem;
-    }
-
+   
     &__list{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        font-size: 1.5rem;
+        font-size: 1.8rem;
         gap: 2.5rem 2rem;
         justify-content: center;
         align-items: center;
