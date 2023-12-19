@@ -1,20 +1,18 @@
-//*****************************************************
-//*   PROJECT PAGE
-//*****************************************************
-
 .project-bgImg-container{
     // border: 2px solid red;
-    @include bgImg(40vh, $main-bgImg-path);
+    @include bgImg(55vh, $main-bgImg-path);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     .projects__bio-image{
         text-align: center;
         margin-bottom: 0.5rem;
+        margin-top: 30rem;
+        font-size: 18px;
     }
 }
-
 .projects{
+    margin-top: 1%;
     &__items{
         width: 100%;
         display: flex;
@@ -29,9 +27,9 @@
         border-bottom: 5px solid $secondary-color;
         position: relative;
         img{
+            height: 100%;
             width: 100%;
         }
-
         &::after{
             content: '';
             width: 100%;
@@ -41,7 +39,6 @@
             left: 0;
             opacity: 0;
             @include transition(0.5s)
-            
         }
         &:hover::after{
             opacity: 0.7;
