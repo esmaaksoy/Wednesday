@@ -6,7 +6,6 @@ const Home = () => {
     <h1 className="home__name">
       Wednesday <span className="home__name--last">Addams</span>
     </h1>
-    <h2>Full Stack Web Developer</h2>
   </main>
 </div>
       

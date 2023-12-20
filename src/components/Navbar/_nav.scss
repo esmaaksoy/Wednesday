@@ -21,7 +21,7 @@
         @include transition(1s);
 
         &:hover{
-            color: blue;
+            color: red;
         }
         &--active{
             color: $secondary-color;
